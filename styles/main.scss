@@ -1,0 +1,1888 @@
+@import '../bace/bace';
+@import '../bace/varibles';
+
+
+header{
+    background-image: url(../img/Bitmap.png);
+    background-repeat: no-repeat;
+    width: 1440px;
+    height: 700px;
+    margin: 0 auto;
+}
+
+section{
+    width: 1440px;
+
+}
+
+
+
+.container{
+    width: 970px;
+    margin: 0 auto;
+}
+
+.header_top{
+    width: 92%;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 40px;
+    &_name{
+        padding: 7px 0 0 11px;
+        &_set{
+            color: $color_text;
+            font: {
+                weight: 700;
+                size: 20px;
+                family: 'Montserrat', sans-serif;
+            }
+        }
+    }
+    &_reg{
+        display: flex;
+        &_box{
+
+            padding: 11px;
+            margin-right: 19px;
+            
+            &_text{
+            color: $color_text;
+            &:hover{
+                cursor: pointer;
+            }
+                font: {
+                    weight: 400;
+                    size: 14px;
+                    family: 'Montserrat', sans-serif;
+                }
+            }
+        }
+        &_second{
+
+            border: 2px solid #FFFFFF;
+            border-radius: 35px;
+            padding: 9px;
+            &:hover{
+                cursor: pointer;
+            }
+            &_text{
+            color: $color_text;
+
+                font: {
+                    weight: 400;
+                    size: 14px;
+                    family: 'Roboto Flex', sans-serif;
+                }
+            }
+        }
+    }
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+        &_dream{
+            margin-top: 153px;
+            padding: 1px 237px;
+            text-align: center;
+            line-height: 1.1;
+            &_text{
+                color: $color_text;
+                
+                font: {
+                    weight: 700;
+                    size: 52px;
+                    family: 'Montserrat', sans-serif;
+                }
+            }
+        }
+
+        &_partner{
+        margin-top: 32px;
+        text-align: center;
+        &_text{
+            color: $color_partner;
+            word-spacing: 3px;
+            font: {
+                weight: 300;
+                size: 24px;
+                family: 'Roboto Flex', sans-serif;
+            }
+        }
+    }
+        &_seght{
+        margin-top: 36px;
+        display: flex;
+        justify-content: center;
+        align-items:center;
+        
+            &_bottom{
+                width: 225px;
+                height: 40px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                border-radius: 35px;
+                background-color: $color_read;
+                &:hover{
+                    cursor: pointer;
+                }
+            &_text{
+                color: $color_text;
+                font: {
+                    weight: 700;
+                    size: 14px;
+                    family: 'Montserrat', sans-serif;
+                }
+            } 
+        }
+    }
+}
+
+
+
+.header_dreamshare{
+    padding-top: 93px;
+    &_works{
+        color: $color_black;
+        text-align: center;
+        font: {
+            weight: 700;
+            size: 26px;
+            family: 'Montserrat', sans-serif;
+        }
+   }
+    
+}
+
+.photo{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 37px;
+    &_first{
+        background-image: url(../img/Step\ 1\ image.png);
+        width: 300px;
+        height: 400px;
+        padding-top: 218px;
+        padding-left: 30px;
+        &_step{
+            
+            width: 70px;
+            height: 20px;
+            background-color: $color_read;
+            border-radius: 35px;
+            display: flex;
+            justify-content: center;
+            align-items:center;
+            p{
+                color: $color_text;
+                font: {
+                    weight: 400;
+                    size: 10px;
+                    family: 'Montserrat', sans-serif;
+                }
+            }
+        }    
+    }
+
+    &_desc{
+        padding-top: 25px;
+            p{
+                color: $color_text;
+                font: {
+                    weight: 700;
+                    size: 24px;
+                    family: 'Montserrat', sans-serif;    
+            }
+        }
+    }
+
+    &_desctwo{
+        padding-top: 25px;
+            p{
+                color: $color_partner;
+                font: {
+                    weight: 300;
+                    size: 14px;
+                    family: 'Montserrat', sans-serif;    
+            }
+        }
+    }
+
+    &_second{
+        background-image: url(../img/Step\ 2image.png);
+        width: 300px;
+        height: 400px;
+        padding-top: 250px;
+        padding-left: 25px;
+        &_step{
+            
+            width: 70px;
+            height: 20px;
+            background-color: $color_read;
+            border-radius: 35px;
+            display: flex;
+            justify-content: center;
+            align-items:center;
+            p{
+                color: $color_text;
+                font: {
+                    weight: 400;
+                    size: 10px;
+                    family: 'Montserrat', sans-serif;
+                }
+            }
+        }    
+    }
+
+    &_desctwos{
+        padding-top: 20px;
+            p{
+                color: $color_partner;
+                font: {
+                    weight: 300;
+                    size: 14px;
+                    family: 'Montserrat', sans-serif;    
+            }
+        }
+    }
+    
+    
+
+
+    &_third{
+        background-image: url(../img/Step\ 3image.png);
+        width: 300px;
+        height: 400px;
+        padding-top: 218px;
+        padding-left: 23px;
+        &_step{
+            
+            width: 70px;
+            height: 20px;
+            background-color: $color_read;
+            border-radius: 35px;
+            display: flex;
+            justify-content: center;
+            align-items:center;
+            p{
+                color: $color_text;
+                font: {
+                    weight: 400;
+                    size: 10px;
+                    family: 'Montserrat', sans-serif;
+                }
+            }
+        }    
+    }
+}
+
+
+    .meet{
+        &_header{
+            margin: 0 auto;
+            padding-top: 93px;
+            p{
+            color: $color_black;
+            text-align: center;
+                font: {
+                weight: 700;
+                size: 26px;
+                family: 'Montserrat', sans-serif;
+                }
+            }
+        }
+    }
+
+    .box__meet{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        padding-top: 36px;
+        width: 941px;
+                &_foto{
+                    width: 232px;
+                    height: 224px;
+                    display: flex;
+                    flex-direction: column;
+                    align-items:center;
+                        &_name{
+                            color: $color_black;
+                            padding-top: 21px;
+                            text-align: center;
+                                font: {
+                                weight: 700;
+                                size: 14px;
+                                family: 'Montserrat', sans-serif;
+                                }
+                        }
+
+                        &_about{
+                            color: $color_about_meet;
+                            line-height: 14px;
+                            padding-top: 23px;
+                            text-align: center;
+                                font: {
+                                weight: 300;
+                                size: 14px;
+                                family: 'Roboto Flex', sans-serif;
+                                }
+                        }
+                    }
+        }
+
+        .box__bottom{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding-top: 37px;
+            &_border{
+                width: 180px;
+                height: 40px;
+                border: 2px $color_read solid;
+                border-radius: 35px;
+                &:hover{
+                    cursor: pointer;
+                }
+                p{
+                    text-align: center;
+                    line-height: 40px;
+                    color: $color_read;
+                font: {
+                    weight: 700;
+                    size: 14px;
+                    family: 'Montserrat', sans-serif;    
+                    }
+                } 
+            }
+        }
+    
+    
+
+
+.header_dreamshare{
+    padding: 80px 0 28px 0;
+    &_works{
+        color: $color_black;
+        text-align: center;
+        font: {
+            weight: 700;
+            size: 26px;
+            family: 'Montserrat', sans-serif;
+        }
+   }
+    
+}
+
+.column{
+    height: 970px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.block__top{
+    width: 940px;
+    display: flex;
+    justify-content: space-between;
+   &_sport{
+        background-image: url(../img/1Sport.png);
+        width: 300px;
+        height: 310px;
+   }
+   &_health{
+        background-image: url(../img/2Healath.png);
+        width: 300px;
+        height: 310px;
+   }
+   &_extrem{
+        background-image: url(../img/3Extreme.png);
+        width: 300px;
+        height: 310px;
+   }
+}
+
+.block__center{
+    width: 940px;
+    display: flex;
+    justify-content: space-between;
+    &_games{
+        background-image: url(../img/4Games.png);
+        width: 300px;
+        height: 310px;   
+    }
+    &_culture{
+        background-image: url(../img/5Culture.png);
+        width: 620px;
+        height: 310px;   
+    }
+}
+
+.block__down{
+    width: 940px;
+    display: flex;
+    justify-content: space-between;
+    &_masage{
+        background-image: url(../img/6Culture\ Copy.png);
+        width: 620px;
+        height: 310px;   
+    }
+    &_games{
+        background-image: url(../img/7Games\ Copy.png);
+        width: 300px;
+        height: 310px;   
+    }
+}
+
+
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    &_name{
+        margin: 10px 0 39px 0;
+        p{
+            color: $color_about_meet;
+            word-spacing: 3px;
+            font: {
+                weight: 300;
+                size: 18px;
+                family: 'Roboto Flex', sans-serif;
+            }
+        }
+    }
+    &__placeholder_bottom{
+        display: flex;
+        input{
+            width: 299px;
+            height: 40px;
+            margin-right: 5px;
+        }
+        &_red{
+           width: 172px;
+           height: 40px; 
+           background-color: $color_read;
+           border-radius: 50px;
+           display: flex;
+           justify-content: center;
+           align-items:center;
+           margin-left: 5px;
+           p{
+            color: $color_text;
+                font: {
+                    weight: 700;
+                    size: 14px;
+                    family: 'Montserrat', sans-serif;
+                }
+           }
+        }
+    }
+}
+
+
+
+
+
+
+
+footer{
+    width: 1440px;
+    margin-top: 100px;
+    padding-bottom: 40px;
+    border-top: 2px solid red;
+    padding-top: 38px;
+}
+
+li{
+    text-decoration: none;
+    color: $color_li;
+    line-height: 26px;
+    font: {
+        weight: 300;
+        size: 14px;
+        family: 'Roboto Flex', sans-serif;
+    }
+}
+
+.box{
+    display: flex;
+    width: 940px;
+    justify-content: space-between;
+}
+
+.box__footer{
+    display: flex;
+    width: 540px;
+    justify-content: space-between;
+    &_first{
+        p{
+            color: $color_read;
+                font: {
+                    weight: 400;
+                    size: 16px;
+                    family: 'Montserrat', sans-serif;
+                }
+           }
+    }
+    &_second{
+        p{
+            color: $color_black;
+            line-height: 17px;
+            padding-bottom: 11px;
+            font: {
+                weight: 700;
+                size: 14px;
+                family: 'Montserrat', sans-serif;
+            }
+        }
+    }
+    &_thirt{
+        p{
+            color: $color_black;
+            line-height: 17px;
+            font: {
+                weight: 700;
+                size: 14px;
+                family: 'Montserrat', sans-serif;
+            }
+        }
+    }
+}
+.box__footer_second_ul{
+    p{
+
+    color: $color_li;
+    line-height: 26px;
+    font: {
+        weight: 300;
+        size: 14px;
+        family: 'Roboto Flex', sans-serif;
+                    
+        }
+    }
+}
+
+.box__footer_forth{
+    &_designed{
+        display: flex;
+        justify-content: flex-end;
+        margin-bottom: 7px;
+        p{
+            color: $color_designed;
+            line-height: 12px;
+            font: {
+                weight: 700;
+                size: 10px;
+                family: 'Montserrat', sans-serif;
+            }
+        }
+    }
+    &_logo{
+        background-image:url(../img/areto.png);
+        width: 110px;
+        height: 24px;
+    }
+
+}
+
+
+
+@media screen and (max-width: 768px){
+        header{
+            background-image: url(../img/tablet_Background.png);
+            background-repeat: no-repeat;
+            width: 768px;
+            height: 700px;
+            margin: 0 auto;
+        }
+        .container{
+            width: 768px;
+            margin: 0 auto;
+        }
+
+        section{
+            width: 768px;
+            margin: 0 auto;
+        }
+
+        .header_top{
+            width: 94%;
+            display: flex;
+            justify-content: space-between;
+            padding-top: 40px;
+            &_name{
+                padding: 7px 0 0 47px;
+
+                &_set{
+                    color: $color_text;
+                    font: {
+                        weight: 700;
+                        size: 20px;
+                        family: 'Montserrat', sans-serif;
+                    }
+                }
+            }
+            &_reg{
+                display: flex;
+                &_box{
+        
+                    padding: 11px;
+                    margin-right: 5px;
+                    
+                    &_text{
+                    color: $color_text;
+                    &:hover{
+                        cursor: pointer;
+                    }
+                        font: {
+                            weight: 400;
+                            size: 14px;
+                            family: 'Montserrat', sans-serif;
+                        }
+                    }
+                }
+                &_second{
+        
+                    border: 2px solid #FFFFFF;
+                    border-radius: 35px;
+                    padding: 9px;
+                    width: 96px;
+                    &:hover{
+                        cursor: pointer;
+                    }
+                    &_text{
+                        text-align: center;
+                    color: $color_text;
+        
+                        font: {
+                            weight: 400;
+                            size: 14px;
+                            family: 'Roboto Flex', sans-serif;
+                        }
+                    }
+                }
+            }
+        }
+        
+        .main{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+                &_dream{
+                    margin-top: 153px;
+                    padding: 1px 115px;
+                    text-align: center;
+                    line-height: 1.1;
+                    &_text{
+                        color: $color_text;
+                        
+                        font: {
+                            weight: 700;
+                            size: 52px;
+                            family: 'Montserrat', sans-serif;
+                        }
+                    }
+                }
+        
+                &_partner{
+                margin-top: 32px;
+                text-align: center;
+                &_text{
+                    color: $color_partner;
+                    word-spacing: 3px;
+                    font: {
+                        weight: 300;
+                        size: 24px;
+                        family: 'Roboto Flex', sans-serif;
+                    }
+                }
+            }
+                &_seght{
+                margin-top: 36px;
+                display: flex;
+                justify-content: center;
+                align-items:center;
+                
+                    &_bottom{
+                        width: 225px;
+                        height: 40px;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        border-radius: 35px;
+                        background-color: $color_read;
+                        &:hover{
+                            cursor: pointer;
+                        }
+                    &_text{
+                        color: $color_text;
+                        font: {
+                            weight: 700;
+                            size: 14px;
+                            family: 'Montserrat', sans-serif;
+                        }
+                    } 
+                }
+            }
+        }
+
+
+    .header_dreamshare{
+        padding-top: 93px;
+        &_works{
+            color: $color_black;
+            text-align: center;
+            font: {
+                weight: 700;
+                size: 22px;
+                family: 'Montserrat', sans-serif;
+            }
+     }
+        
+    }   
+
+    .photo{
+        display: flex;
+        justify-content: space-around;
+        padding-top: 40px;
+        &_first{
+            background-image: url(../img/Step\ 1\ image.png);
+            width: 236px;
+            height: 400px;
+            padding-top: 208px;
+            padding-left: 19px;
+            &_step{
+                
+                width: 70px;
+                height: 20px;
+                background-color: $color_read;
+                border-radius: 35px;
+                display: flex;
+                justify-content: center;
+                align-items:center;
+                p{
+                    color: $color_text;
+                    font: {
+                        weight: 400;
+                        size: 10px;
+                        family: 'Montserrat', sans-serif;
+                    }
+                }
+            }    
+        }
+
+        &_desc{
+            padding-top: 41px;
+                p{
+                    color: $color_text;
+                    line-height: 0.7;
+                    font: {
+                        weight: 700;
+                        size: 24px;
+                        family: 'Montserrat', sans-serif;    
+                }
+            }
+        }
+
+        &_desctwo{
+            padding-top: 25px;
+                p{
+                    color: $color_partner;
+                    line-height: 1;
+                    font: {
+                        weight: 300;
+                        size: 14px;
+                        family: 'Montserrat', sans-serif;    
+                }
+            }
+        }
+
+        &_second{
+            background-image: url(../img/Step\ 2image.png);
+            width: 236px;
+            height: 400px;
+            padding-top: 256px;
+            padding-left: 19px;
+            &_step{
+                
+                width: 70px;
+                height: 20px;
+                background-color: $color_read;
+                border-radius: 35px;
+                display: flex;
+                justify-content: center;
+                align-items:center;
+                p{
+                    color: $color_text;
+                    font: {
+                        weight: 400;
+                        size: 10px;
+                        family: 'Montserrat', sans-serif;
+                    }
+                }
+            }    
+        }
+        &_desc2{
+            padding-top: 15px;
+            width: 80%;
+                p{
+                    color: $color_text;
+                    font: {
+                        weight: 700;
+                        size: 24px;
+                        family: 'Montserrat', sans-serif;    
+                }
+            }
+        }
+
+        &_desctwos{
+            padding-top: 18px;
+                p{
+                    color: $color_partner;
+                    font: {
+                        weight: 300;
+                        size: 14px;
+                        family: 'Montserrat', sans-serif;    
+                }
+            }
+        }
+        
+        
+
+
+        &_third{
+            background-image: url(../img/Step\ 3image.png);
+            width: 236px;
+            height: 400px;
+            padding-top: 208px;
+            padding-left: 19px;
+            &_step{
+                
+                width: 70px;
+                height: 20px;
+                background-color: $color_read;
+                border-radius: 35px;
+                display: flex;
+                justify-content: center;
+                align-items:center;
+                p{
+                    color: $color_text;
+                    font: {
+                        weight: 400;
+                        size: 10px;
+                        family: 'Montserrat', sans-serif;
+                    }
+                }
+            }    
+        }
+    }
+
+    .box__meet{
+        display: flex;
+        justify-content: space-around;
+        padding-top: 36px;
+        width: 492px;
+        margin: 0 auto;
+        &_foto{
+            width: 232px;
+            height: 224px;
+            display: flex;
+            flex-direction: column;
+            align-items:center;
+                &_name{
+                    color: $color_black;
+                    padding-top: 21px;
+                    text-align: center;
+                        font: {
+                        weight: 700;
+                        size: 14px;
+                        family: 'Montserrat', sans-serif;
+                        }
+                }
+
+                &_about{
+                    color: $color_about_meet;
+                    line-height: 14px;
+                    padding-top: 23px;
+                    text-align: center;
+                        font: {
+                        weight: 300;
+                        size: 14px;
+                        family: 'Roboto Flex', sans-serif;
+                        }
+                }
+            }
+        }
+
+        .box__bottom{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding-top: 37px;
+            &_border{
+                width: 180px;
+                height: 40px;
+                border: 2px $color_read solid;
+                border-radius: 35px;
+                &:hover{
+                    cursor: pointer;
+                }
+                p{
+                    text-align: center;
+                    line-height: 40px;
+                    color: $color_read;
+                font: {
+                    weight: 700;
+                    size: 14px;
+                    family: 'Montserrat', sans-serif;    
+                    }
+                } 
+            }
+        }
+
+        .meet{
+            &_header{
+                margin: 0 auto;
+                padding-top: 96px;
+                p{
+                color: $color_black;
+                text-align: center;
+                    font: {
+                    weight: 700;
+                    size: 22px;
+                    family: 'Montserrat', sans-serif;
+                    }
+                }
+            }
+        }
+        
+    .box__meet{
+        display: flex;
+        justify-content: space-around;
+        padding-top: 36px;
+        width: 511px;
+        height: 535px;
+
+                &_foto{
+                    width: 232px;
+                    height: 224px;
+                    display: flex;
+                    flex-direction: column;
+                    align-items:center;
+
+                    &_botton{
+                        padding-top: 11px;
+                    }
+                        &_name{
+                            color: $color_black;
+                            padding-top: 21px;
+                            text-align: center;
+                                font: {
+                                weight: 700;
+                                size: 14px;
+                                family: 'Montserrat', sans-serif;
+                                }
+                        }
+
+                        &_about{
+                            color: $color_about_meet;
+                            line-height: 14px;
+                            padding-top: 23px;
+                            text-align: center;
+                                font: {
+                                weight: 300;
+                                size: 14px;
+                                family: 'Roboto Flex', sans-serif;
+                                }
+                        }
+                    }
+        
+            }
+            .box__bottom{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                padding-top: 8px;
+                &_border{
+                    width: 180px;
+                    height: 40px;
+                    border: 2px $color_read solid;
+                    border-radius: 35px;
+                    &:hover{
+                        cursor: pointer;
+                    }
+                    p{
+                        text-align: center;
+                        line-height: 40px;
+                        color: $color_read;
+                    font: {
+                        weight: 700;
+                        size: 14px;
+                        family: 'Montserrat', sans-serif;    
+                        }
+                    } 
+                }
+            }
+
+.header_dreamshare{
+    padding: 80px 0 28px 0;
+    &_works{
+        color: $color_black;
+        text-align: center;
+        font: {
+            weight: 700;
+            size: 26px;
+            family: 'Montserrat', sans-serif;
+        }
+   }
+    
+}
+
+.column{
+    height: 970px;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: space-around;
+}
+
+.block__top{
+    width: 748px;
+    display: flex;
+    justify-content: space-between;
+   &_sport{
+        background-image: url(../img/mob1Sport.png);
+        width: 236px;
+        height: 310px;
+   }
+   &_health{
+        background-image: url(../img/mob2Healath.png);
+        width: 236px;
+        height: 310px;
+   }
+   &_extrem{
+        background-image: url(../img/mob3Extreme.png);
+        width: 236px;
+        height: 310px;
+   }
+}
+
+.block__center{
+    width: 748px;
+    display: flex;
+    justify-content: space-between;
+    &_games{
+        background-image: url(../img/mob4Games.png);
+        width: 236px;
+        height: 310px;   
+    }
+    &_culture{
+        background-image: url(../img/mob5Culture.png);
+        width: 492px;
+        height: 310px;   
+    }
+}
+
+.block__down{
+    width: 748px;
+    display: flex;
+    justify-content: space-between;
+    &_masage{
+        background-image: url(../img/mob6Culture\ Copy.png);
+        width: 492px;
+        height: 310px;   
+    }
+    &_games{
+        background-image: url(../img/mob7Games\ Copy.png);
+        width: 236px;;
+        height: 310px;   
+    }
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    &_name{
+        margin: 10px 0 39px 0;
+        p{
+            
+            color: $color_about_meet;
+            word-spacing: 3px;
+            font: {
+                weight: 300;
+                size: 18px;
+                family: 'Roboto Flex', sans-serif;
+            }
+        }
+    }
+    &__placeholder_bottom{
+        display: flex;
+        input{
+            width: 299px;
+            height: 40px;
+            margin-right: 5px;
+        }
+        &_red{
+           width: 172px;
+           height: 40px; 
+           background-color: $color_read;
+           border-radius: 50px;
+           display: flex;
+           justify-content: center;
+           align-items:center;
+           margin-left: 5px;
+           p{
+            color: $color_text;
+                font: {
+                    weight: 700;
+                    size: 14px;
+                    family: 'Montserrat', sans-serif;
+                }
+           }
+        }
+    }
+}
+
+    footer{
+        width: 768px;
+        margin-top: 100px;
+        padding-bottom: 40px;
+        border-top: 2px solid red;
+    }
+    .box__footer_second_ul{
+        p{
+
+        color: $color_li;
+        line-height: 26px;
+        font: {
+            weight: 300;
+            size: 14px;
+            family: 'Roboto Flex', sans-serif;
+                        
+            }
+        }
+    }
+    
+    .box{
+        display: flex;
+        width:753px;
+        justify-content: space-around;
+    }
+    
+    .box__footer{
+        display: flex;
+        width: 477px;
+        justify-content: space-between;
+        &_first{
+            p{
+                color: $color_read;
+                    font: {
+                        weight: 400;
+                        size: 16px;
+                        family: 'Montserrat', sans-serif;
+                    }
+               }
+        }
+        &_second{
+            p{
+                color: $color_black;
+                line-height: 17px;
+                padding-bottom: 11px;
+                font: {
+                    weight: 700;
+                    size: 14px;
+                    family: 'Montserrat', sans-serif;
+                }
+            }
+        }
+        &_thirt{
+            p{
+                color: $color_black;
+                line-height: 17px;
+                font: {
+                    weight: 700;
+                    size: 14px;
+                    family: 'Montserrat', sans-serif;
+                }
+            }
+        }
+    }
+    
+    .box__footer_forth{
+        &_designed{
+            display: flex;
+            justify-content: flex-end;
+            margin-bottom: 7px;
+            p{
+                color: $color_designed;
+                line-height: 12px;
+                font: {
+                    weight: 700;
+                    size: 10px;
+                    family: 'Montserrat', sans-serif;
+                }
+            }
+        }
+        &_logo{
+            background-image:url(../img/areto.png);
+            width: 110px;
+            height: 24px;
+        }
+    
+    }
+    
+
+}
+
+
+
+
+@media screen and (max-width: 320px){
+    header{
+        background-image: url(../img/mobile_Background.png);
+        background-repeat: no-repeat;
+        width: 320px;
+        height: 540px;
+        // margin: 0 auto;
+    }
+    .container{
+        width: 320px;
+        margin: 0 auto;
+    }
+
+    section{
+        width: 320px;
+        margin: 0 auto;
+    }
+
+    .header_top{
+        width: 94%;
+        display: flex;
+        justify-content: center;
+        padding-top: 20px;
+        &_name{
+            padding: 7px 0 0 47px;
+            display: none;
+
+            &_set{
+                color: $color_text;
+                font: {
+                    weight: 700;
+                    size: 20px;
+                    family: 'Montserrat', sans-serif;
+                }
+            }
+        }
+        &_reg{
+            display: flex;
+            &_box{
+    
+                padding: 11px;
+                margin-right: 5px;
+                
+                &_text{
+                color: $color_text;
+                &:hover{
+                    cursor: pointer;
+                }
+                    font: {
+                        weight: 400;
+                        size: 14px;
+                        family: 'Montserrat', sans-serif;
+                    }
+                }
+            }
+            &_second{
+    
+                border: 2px solid #FFFFFF;
+                border-radius: 35px;
+                padding: 9px;
+                width: 96px;
+                &:hover{
+                    cursor: pointer;
+                }
+                &_text{
+                    text-align: center;
+                color: $color_text;
+    
+                    font: {
+                        weight: 400;
+                        size: 14px;
+                        family: 'Roboto Flex', sans-serif;
+                    }
+                }
+            }
+        }
+    }
+    
+    .main{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+            &_dream{
+                margin-top: 153px;
+                text-align: center;
+                padding: 1px 18px;
+                line-height: 1.1;
+                &_text{
+                    color: $color_text;
+                    
+                    font: {
+                        weight: 700;
+                        size: 30px;
+                        family: 'Montserrat', sans-serif;
+                    }
+                }
+            }
+    
+            &_partner{
+            margin-top: 8px;
+            text-align: center;
+            padding: 0 41px;
+            &_text{
+                color: $color_partner;
+                word-spacing: 3px;
+                font: {
+                    weight: 300;
+                    size: 18px;
+                    family: 'Roboto Flex', sans-serif;
+                }
+            }
+        }
+            &_seght{
+            margin-top: 26px;
+            display: flex;
+            justify-content: center;
+            align-items:center;
+            
+                &_bottom{
+                    width: 280px;
+                    height: 40px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    border-radius: 35px;
+                    background-color: $color_read;
+                    &:hover{
+                        cursor: pointer;
+                    }
+                &_text{
+                    color: $color_text;
+                    font: {
+                        weight: 700;
+                        size: 14px;
+                        family: 'Montserrat', sans-serif;
+                    }
+                } 
+            }
+        }
+    }
+
+
+.header_dreamshare{
+    padding-top: 37px;
+    &_works{
+        color: $color_black;
+        text-align: center;
+        font: {
+            weight: 700;
+            size: 22px;
+            family: 'Montserrat', sans-serif;
+        }
+ }
+    
+}   
+
+.photo{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 14px;
+    height: 760px;
+    &_first{
+        background-image: url(../img/mobileStep\ 1\ image.png);
+        width: 300px;
+        height: 240px;
+        padding-top: 65px;
+        padding-left: 19px;
+        &_step{
+            
+            width: 70px;
+            height: 20px;
+            background-color: $color_read;
+            border-radius: 35px;
+            display: flex;
+            justify-content: center;
+            align-items:center;
+            p{
+                color: $color_text;
+                font: {
+                    weight: 400;
+                    size: 10px;
+                    family: 'Montserrat', sans-serif;
+                }
+            }
+        }    
+    }
+
+    &_desc{
+        padding-top: 41px;
+            p{
+                color: $color_text;
+                line-height: 0.7;
+                font: {
+                    weight: 700;
+                    size: 24px;
+                    family: 'Montserrat', sans-serif;    
+            }
+        }
+    }
+
+    &_desctwo{
+        padding-top: 25px;
+            p{
+                color: $color_partner;
+                line-height: 1;
+                font: {
+                    weight: 300;
+                    size: 14px;
+                    family: 'Montserrat', sans-serif;    
+            }
+        }
+    }
+
+    &_second{
+        background-image: url(../img/mobeleStep\ 2\ image.png);
+        width: 300px;
+        height: 240px;
+        padding-top: 97px;
+        padding-left: 19px;
+        &_step{
+            
+            width: 70px;
+            height: 20px;
+            background-color: $color_read;
+            border-radius: 35px;
+            display: flex;
+            justify-content: center;
+            align-items:center;
+            p{
+                color: $color_text;
+                font: {
+                    weight: 400;
+                    size: 10px;
+                    family: 'Montserrat', sans-serif;
+                }
+            }
+        }    
+    }
+    &_desc2{
+        padding-top: 25px;
+        width: 80%;
+            p{
+                color: $color_text;
+                font: {
+                    weight: 700;
+                    size: 24px;
+                    family: 'Montserrat', sans-serif;    
+            }
+        }
+    }
+
+    &_desctwos{
+        padding-top: 25px;
+            p{
+                color: $color_partner;
+                font: {
+                    weight: 300;
+                    size: 14px;
+                    family: 'Montserrat', sans-serif;    
+            }
+        }
+    }
+    
+    
+
+
+    &_third{
+        background-image: url(../img/mobileStep\ 3\ image.png);
+        width: 300px;
+        height: 240px;
+        padding-top: 66px;
+        padding-left: 19px;
+        &_step{
+            
+            width: 70px;
+            height: 20px;
+            background-color: $color_read;
+            border-radius: 35px;
+            display: flex;
+            justify-content: center;
+            align-items:center;
+            p{
+                color: $color_text;
+                font: {
+                    weight: 400;
+                    size: 10px;
+                    family: 'Montserrat', sans-serif;
+                }
+            }
+        }    
+    }
+}
+
+.meet{
+    &_header{
+        margin: 0 auto;
+        padding-top:37px;
+        p{
+        color: $color_black;
+        text-align: center;
+            font: {
+            weight: 700;
+            size: 22px;
+            family: 'Montserrat', sans-serif;
+            }
+        }
+    }
+}
+
+.box__meet{
+display: flex;
+justify-content: space-around;
+padding-top: 21px;
+width: 320px;
+height: 935px;
+
+        &_foto{
+            width: 232px;
+            height: 224px;
+            display: flex;
+            flex-direction: column;
+            align-items:center;
+
+            &_botton{
+                padding-top: 0px;
+            }
+                &_name{
+                    color: $color_black;
+                    padding-top: 21px;
+                    text-align: center;
+                        font: {
+                        weight: 700;
+                        size: 14px;
+                        family: 'Montserrat', sans-serif;
+                        }
+                }
+
+                &_about{
+                    color: $color_about_meet;
+                    line-height: 14px;
+                    padding-top: 23px;
+                    text-align: center;
+                        font: {
+                        weight: 300;
+                        size: 14px;
+                        family: 'Roboto Flex', sans-serif;
+                        }
+                }
+            }
+
+    }
+    .box__bottom{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 8px;
+        &_border{
+            width: 280px;
+            height: 40px;
+            border: 2px $color_read solid;
+            border-radius: 35px;
+            &:hover{
+                cursor: pointer;
+            }
+            p{
+                text-align: center;
+                line-height: 40px;
+                color: $color_read;
+            font: {
+                weight: 700;
+                size: 14px;
+                family: 'Montserrat', sans-serif;    
+                }
+            } 
+        }
+    }
+
+    
+    .header_dreamshare{
+        padding: 80px 0 28px 0;
+        &_works{
+            color: $color_black;
+            text-align: center;
+            font: {
+                weight: 700;
+                size: 26px;
+                family: 'Montserrat', sans-serif;
+            }
+       }
+        
+    }
+    
+    .column{
+        height: 970px;
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+    }
+    
+    .block__top{
+        width: 320px;
+        display: flex;
+        flex-direction: column;
+        align-items:center;
+        justify-content: space-between;
+       &_sport{
+            margin: 5px 0;
+            background-image: url(../img/S1.png);
+            width: 300px;
+            height: 120px;
+       }
+       &_health{
+            background-image: url(../img/s2.png);
+            margin: 5px 0;
+            width: 300px;
+            height: 120px;
+       }
+       &_extrem{
+            background-image: url(../img/s3.png);
+            margin: 5px 0;
+            width: 300px;
+            height: 120px;
+       }
+    }
+    
+    .block__center{
+        width: 320px;
+        display: flex;
+        flex-direction: column;
+        align-items:center;
+        justify-content: space-between;
+        &_games{
+            background-image: url(../img/s4.png);
+            margin: 5px 0;
+            width: 300px;
+            height: 120px;  
+        }
+        &_culture{
+            background-image: url(../img/s5.png);
+            margin: 5px 0;
+            width: 300px;
+            height: 120px;   
+        }
+    }
+    
+    .block__down{
+        width: 320px;
+        display: flex;
+        flex-direction: column;
+        align-items:center;
+        justify-content: space-between;
+        &_masage{
+            background-image: url(../img/s6.png);
+            margin: 5px 0;
+            width: 300px;
+            height: 120px;  
+        }
+        &_games{
+            background-image: url(../img/s7.png);
+            margin: 5px 0;
+            width: 300px;
+            height: 120px;  
+        }
+    }
+
+    .form{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items:center;
+        &_name{
+            margin: 10px 0 39px 0;
+            p{
+                
+                color: $color_about_meet;
+                word-spacing: 3px;
+                font: {
+                    weight: 300;
+                    size: 18px;
+                    family: 'Roboto Flex', sans-serif;
+                }
+            }
+        }
+        &__placeholder_bottom{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items:center;
+            input{
+                width: 280px;
+                height: 40px;
+                margin-bottom: 10px;
+            }
+            &_red{
+               width: 280px;
+               height: 40px; 
+               background-color: $color_read;
+               border-radius: 50px;
+               display: flex;
+               justify-content: center;
+               align-items:center;
+               p{
+                color: $color_text;
+                    font: {
+                        weight: 700;
+                        size: 14px;
+                        family: 'Montserrat', sans-serif;
+                    }
+               }
+            }
+        }
+    }
+
+    footer{
+        width: 320px;
+        margin-top: 100px;
+        padding-bottom: 40px;
+        border-top: 2px solid red;
+    }
+    .box__footer_second_ul{
+        display: flex;
+    flex-wrap: wrap;
+    width: 273px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 6px;
+        p{
+
+        color: $color_li;
+        line-height: 26px;
+        font: {
+            weight: 300;
+            size: 14px;
+            family: 'Roboto Flex', sans-serif;
+                        
+            }
+        }
+    }
+    
+    .box{
+        display: flex;
+        flex-direction: column;
+        width: 320px;
+        justify-content: space-around;
+        &_for_about{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+    }
+    
+    .box__footer{
+        display: flex;
+        flex-direction: column;
+        width: 320px;
+        justify-content: space-between;
+        &_first{
+            margin-bottom: 13px;
+            display: flex;
+            justify-content: center;
+            p{
+                color: $color_read;
+                    font: {
+                        weight: 400;
+                        size: 16px;
+                        family: 'Montserrat', sans-serif;
+                    }
+               }
+        }
+        &_second{
+            display: flex;
+            justify-content: center;
+            p{
+                color: $color_black;
+                line-height: 17px;
+                padding-bottom: 11px;
+                font: {
+                    weight: 700;
+                    size: 14px;
+                    family: 'Montserrat', sans-serif;
+                }
+            }
+        }
+        &_thirt{
+            display: flex;
+            justify-content: center;
+            margin-bottom: 13px;
+            p{
+                color: $color_black;
+                line-height: 17px;
+                font: {
+                    weight: 700;
+                    size: 14px;
+                    family: 'Montserrat', sans-serif;
+                }
+            }
+        }
+    }
+    .about{
+        margin: 0 10px;
+    }
+    .contact {
+        margin: 0 10px;
+    }
+    .press {
+        margin: 0 10px;
+    }
+    .blog {
+        margin: 0 10px;
+    }
+    .teams {
+        margin: 0 10px;
+    }
+
+    
+    .box__footer_forth{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        &_designed{
+            display: flex;
+            justify-content: center;
+            margin-bottom: 7px;
+            p{
+                color: $color_designed;
+                line-height: 12px;
+                font: {
+                    weight: 700;
+                    size: 10px;
+                    family: 'Montserrat', sans-serif;
+                }
+            }
+        }
+        &_logo{
+            background-image:url(../img/areto.png);
+            width: 110px;
+            height: 24px;
+        }
+    
+    }
+}
+   
